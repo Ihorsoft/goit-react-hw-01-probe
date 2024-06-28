@@ -60,7 +60,6 @@ const App = () => {
       <Alert variant="info">
         <Mailbox username="Ivan" messages={["goodbay", "thefinish"]} />
       </Alert>
-      {/* <Mailbox username="Ivan" messages={["goodbay", "thefinish"]} /> */}
 
       <Profile
         name={userData.username}
